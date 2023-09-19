@@ -51,5 +51,6 @@ let result // variavel que guarda o resultado
         operacao("Divisão")
         result = fator1 / fator2
         console.log("\nO resultado é:\t", result, "\n")
+        
       }
     }
