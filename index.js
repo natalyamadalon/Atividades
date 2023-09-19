@@ -3,6 +3,7 @@ let opcao //variavel que guarda a opção de operador escolhida
 let fator1 // variavel que guarda o fator de operação 1
 let fator2 // variavel que guarda o fator de operação 2
 let result // variavel que guarda o resultado
+
 { while (reiniciar = true ) 
     calcular()
     console.log("\nDeseja calcular novamente? digite 'verdadeiro' para sim e 'falso' para não:\n")
@@ -26,6 +27,7 @@ let result // variavel que guarda o resultado
     console.log("3 - Multiplicação\n")
     console.log("4 - Divisão\n")
     console.log("\nresposta:\t")
+    
     leia(opcao)
       if (opcao == 1) {
         operacao("Adição")
