@@ -35,7 +35,7 @@ while (reiniciar){
       console.log("\nO resultado é:\t", result, "\n")
     }
     if (opcao == 3) {
-      console.log("Multiplicação")
+      console.log("Multiplicação!")
       console.log("\nDigite o primeiro fator:\t\n")
       fator1 = parseFloat (prompt())
       console.log("\nDigite o segundo fator:\t\n")
