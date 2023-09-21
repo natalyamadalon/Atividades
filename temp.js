@@ -12,8 +12,7 @@ console.log("Conversor de temperaturas\n")
 console.log("\nEscolha a operação:\n")
 console.log("1 - Celsius para Fahrenheit\n")
 console.log("2 - Fahrenheit para Celsius\n")
-console.log("\nOperação escolhida:")
-opcao = prompt()
+opcao = prompt("\nOperação escolhida:")
 console.clear() // limpa tudo do console escrito antes dele
 
     if (opcao == 1) {
